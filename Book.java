@@ -7,5 +7,9 @@ public class Book {
         title = t;
         availability = x;
     }
+    
+    public String getTitle(){
+        return title;
+    }
 
 }

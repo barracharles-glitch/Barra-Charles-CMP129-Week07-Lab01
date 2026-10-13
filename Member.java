@@ -1,9 +1,12 @@
 public class Member {
-    private String name="", membershipID="", borrowed_books="";
+    private String name="", membershipID="";
 
-    public Member (String n, String m, String b){
+    public Member (String n, String m){
         name = n;
         membershipID = m;
-        borrowed_books = b;
+    }
+
+    public String getID(){
+        return membershipID;
     }
 }
